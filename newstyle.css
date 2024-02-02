@@ -1,0 +1,98 @@
+h2{
+    color: green;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-image: url("hero-bg.jpg");
+
+}
+.navbar a{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.navbar .menu{
+    list-style: none;
+}
+.navbar .menu {
+    display: flex;
+    position: relative;
+}
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.navbar .menu a:hover{
+    color: green;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.home .text-two{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    margin: 3px;
+    text-align: center;
+}
+.home .text-three{
+    font-size: 65px;
+    margin: 5px 0;
+    color: white;
+    text-align: center;
+}
+.home .button{
+    margin: 14px 0;
+    text-align: center;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: darkviolet;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    background-color: red;
+    border-color: aqua;
+    color: blue;
